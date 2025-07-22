@@ -34,8 +34,8 @@ Browser:
 
 ### Links
 
-- Solution URL: [https://your-solution-url.com](https://github.com/StiTchD-WireD/P6-social-links-profile)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/StiTchD-WireD/P6-social-links-profile)
+- Live Site URL: [GitHub Pages](https://stitchd-wired.github.io/P6-social-links-profile/)
 
 ## My process
 
