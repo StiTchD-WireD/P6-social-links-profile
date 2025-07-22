@@ -13,7 +13,7 @@ body {
     color: var(--White);
 }
 
-.container {
+main {
     width: 80%;
     max-width: 25em;
     background-color: var(--Grey-800);
