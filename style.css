@@ -1,0 +1,93 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Grey-900);
+    font-size: 0.875em;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+}
+
+.container {
+    width: 80%;
+    max-width: 25em;
+    background-color: var(--Grey-800);
+    margin: 7em auto;
+    padding: 2em 2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 7em;
+}
+
+h1 {
+    margin: 1.2em 0 0 0;
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+h2 {
+    margin: .2em 0 1em 0;
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--Green);
+}
+
+p {
+    margin: 1em 0 1em 0;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+
+.social-links > a {
+    width: 100%;
+    padding: 1em;
+    border-radius: .5em;
+    background-color: var(--Grey-700);
+
+    text-decoration: none;
+    color: var(--White);
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    margin-top: .8em;
+}
+
+a:hover,
+a:focus {
+    background-color: var(--Green);
+    color: var(--Grey-800);
+}
+
+footer {
+    font-size: .7em;
+    text-align: center;
+}
+
+@media (min-width: 25em) {
+
+    p {
+        font-size: 1em
+    }
+}
